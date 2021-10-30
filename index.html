@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <!-- Isi Konten dari Website -->
+  <body id="konten">
+    <!-- Membuat Form Pemilihan Tema Gelap/Terang-->
+    <form>
+      <label for="tema">Select theme :</label>
+      <select name="tema" id="tema" onchange="pilihtema()">
+        <option value="terang">White</option>
+        <option value="gelap">Dark</option>
+      </select>
+    </form>
+    <h1>This is my website</h1>
+
+    <!-- Membuat Form Pemilihan Cuaca-->
+    <form>
+      <label for="cuaca">Select the weather type today : </label>
+      <select name="cuaca" id="cuaca" onchange="kondisi()">
+        <option value="cerah">Sunny</option>
+        <option value="hujan">Rainny</option>
+      </select>
+    </form>
+    <p id="kalimat">It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream</p>
+
+    <!-- Membuat Form untuk memasukkan angka yang akan dilakukan Faktorial-->
+    <form onsubmit="return false">
+      <label for="bilangan">Input number :</label>
+      <input type="number" name="bilangan" id="bilangan" required />
+      <button onclick="faktorial()">Get Factorial</button>
+    </form>
+    <p id="hasil"></p>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
