@@ -1,0 +1,125 @@
+/*  Untuk Mereset CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20;
+}
+
+/*  Untuk Mengatur background dari Website */
+body {
+  background-image: url("image/Background.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* Untuk mengatur margin dari tampilan Web */
+.container {
+  margin: 2% 5% 2% 5%;
+}
+
+/* Untuk mengatur CSS pada Header */
+header {
+  background-color: rgba(60, 135, 233, 0.678);
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 3%;
+}
+
+/*  Untuk mengatur CSS pada Logo Itera pada Header */
+#logo {
+  width: 10%;
+  padding-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Untuk mengatur CSS pada Judul yang terdapat pada Header */
+.judul {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* Untuk mengatur CSS pada Navbar */
+nav {
+  background-color: rgba(255, 0, 0, 0.753);
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5%;
+}
+
+/* Untuk mengatur CSS pada teks Navbar */
+nav ul li {
+  display: inline;
+  font-size: 25px;
+  background-color: green;
+}
+
+/* Untuk mengatur tampilan pada Konten biodata dan berita */
+.body {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+/* Untuk mengatur tampilan pada Konten biodata */
+.main_content {
+  background-color: rgba(0, 162, 255, 0.664);
+  height: auto;
+  width: 70%;
+}
+
+#judul_konten {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.isi {
+  text-align: justify;
+  margin: 5%;
+  padding-left: 5%;
+  font-size: 25px;
+  text-align: left;
+}
+
+/* Untuk mengatur tampilan pada Konten berita */
+.lokasi {
+  background-color: rgba(0, 102, 255, 0.568);
+  height: auto;
+  width: 30%;
+}
+
+.lokasi1,
+.lokasi2 {
+  background-color: rgb(222, 222, 235);
+  border-radius: 5%;
+  margin: 5% 15% 5% 15%;
+  width: 70%;
+  padding: 2%;
+  text-align: justify;
+}
+
+#gambar_lokasi1,
+#gambar_lokasi2 {
+  width: 70%;
+  display: block;
+  margin: 1% auto 1% auto;
+}
+
+/* Untuk mengatur tampilan pada footer */
+footer {
+  background-color: rgba(4, 56, 116, 0.541);
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-bottom: 1%;
+  font-size: 23px;
+}
