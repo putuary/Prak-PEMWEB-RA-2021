@@ -1,6 +1,6 @@
-Nama : Putu Ary Kusuma Yudha
-NIM : 119140098
-Kelas : Pemweb RA
+#Nama : Putu Ary Kusuma Yudha
+#NIM : 119140098
+#Kelas : Pemweb RA
 
 Modifikasi yang dilakukan
 
